@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         return buttons
     }
 
-    private fun startOver() {
+    fun startOver() {
         val buttons: List<Button> = ttt_table.getButtons()
         for (button in buttons) {
             button.text = ""
